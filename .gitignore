@@ -1,0 +1,32 @@
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Editors and IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Logs and temporary output
+*.log
+logs/
+tmp/
+*.tmp
+*.out
+*.pid
+
+# Local Kubernetes scratch artifacts
+.kube/
+kubeconfig
+kubeconfig.*
+*.kubeconfig
+
+# Test caches
+.pytest_cache/
+__pycache__/
+
+# Local environment files
+.env
+.env.local

@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: inventory
+  labels:
+    cartgrid.io/domain: fulfillment
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: checkout
+  labels:
+    cartgrid.io/domain: checkout
